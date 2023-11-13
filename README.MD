@@ -34,7 +34,7 @@ Follow these steps to set up and run the Food Explorer API on your local machine
     yarn dev
     ```
 
-5. Create a `.env` file similar to the example provided, and add your `PORT` and `AUTH_SECRET`.
+5. Create a `.env` file similar to the example provided, and add your `PORT` and `JWT_SECRET`.
 
 ## How to Use
 
@@ -52,7 +52,8 @@ Experiment by:
 
 ### As a Customer:
 
-Create your account and log in.
+-   Create your account and log in.
+
 Experiment by:
 
 -   Searching for the dishes
