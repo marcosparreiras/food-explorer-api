@@ -65,14 +65,14 @@ The database consists of 3 entities:
 
 | Entity          | Field       | Type                             |
 | --------------- | ----------- | -------------------------------- |
-| **user**        | id          | Integer                          |
+| **users**       | id          | Integer                          |
 |                 | name        | String                           |
 |                 | password    | String                           |
 |                 | email       | String                           |
 |                 | role        | Enum ('admin', 'customer')       |
 |                 | created_at  | DateTime                         |
 |                 | updated_at  | DateTime                         |
-| **meal**        | id          | Integer                          |
+| **meals**       | id          | Integer                          |
 |                 | image       | String                           |
 |                 | name        | String                           |
 |                 | description | String                           |
